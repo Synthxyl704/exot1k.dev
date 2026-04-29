@@ -4,249 +4,313 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="scriptX.js"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <title>EVO_X</title>
-    
+    <title>hi bro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="screen-noise"></div>
+    <div class="screen-grid"></div>
 
-    <!-- top Bar -->
-    <div class="top-bar">
-        <div class="top-bar-left">
-        
-            <span class="top-bar-item">■ SUBCORE::EMPLOYEE_ID=067</span>
-            <span>‎ |‎ Vx1.2 SUBSPACE CORE | ENERGY EXTRACTION MANAGEMENT STAFF </span> 
-            <!-- why does spanning this fix everything? -->
+    <nav class="nav-sidebar">
+        <div class="nav-top">
+            <div class="nav-logo">
+                <div class="window-dots" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="brand-block">
+                    <span class="logo-mark">7</span>
+                    <span class="logo-text">REDUX</span>
+                </div>
+            </div>
+
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">
+                    <span class="nav-num">01</span>
+                    <span class="nav-label">home</span>
+                </a>
+                <a href="#about" class="nav-link">
+                    <span class="nav-num">02</span>
+                    <span class="nav-label">about</span>
+                </a>
+                <a href="#work" class="nav-link">
+                    <span class="nav-num">03</span>
+                    <span class="nav-label">work</span>
+                </a>
+                <a href="#contact" class="nav-link">
+                    <span class="nav-num">04</span>
+                    <span class="nav-label">contact</span>
+                </a>
+            </div>
         </div>
-        
-        <div class="top-bar-right">
-            <span> ᚼᛑ NET: <span style="color: black !important; background-color: red;">!INSECURE!</span></span>
-            <span> | PWR: <span style="color: #c4ff00;"> 67% </span> | </span>
-            <span id="clock"> <span style="color: #ff1c1c;">${1E_[+1]_waiting_for_attribute} </span></span>
+
+        <div class="nav-footer">
+            <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+                <span class="theme-toggle-text">light</span>
+            </button>
+            <div class="social-links">
+                <a href="https://github.com/Synthxyl704" target="_blank">GitHub</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+            <span class="copyright">त्रिमितीय संज्ञानात्मक</span>
         </div>
-        
-    </div>
+    </nav>
 
-<!-- i really like "reactor" interfaces, they scream pure hi-tech -->
-    <div class="main-container">
-        <aside class="sidebar">
-        
-            <div class="profile">
-                <div class="terminal-icon">[7]</div>  <!-- &gt;_ -->
-                
-                <h2>7Tiamatr/x_</h2>
-                <p>C/C++ programmer </p> <!-- i dont like SQL -->
-                
-                <div class="profile-stats">
-                    <div class="stat-box">
-                        <div class="stat-label">AxS</div> <!-- alloted execution space -->
-                        <div class="stat-value">[RM-CR]</div> <!-- reactor management - control room -->
+    <main class="main-scroll">
+        <section id="home" class="section section-hero panel-shell active-section">
+            <div class="hero-shell">
+                <div class="hero-rail" aria-hidden="true">
+                    <span class="hero-rail-line"></span>
+                    <span class="hero-rail-line short"></span>
+                    <span class="hero-rail-line tall"></span>
+                    <span class="hero-rail-word">inter</span>
+                </div>
+
+                <div class="hero-stage">
+                    <div class="hero-strip" role="tablist" aria-label="Hero panels">
+                        <button class="hero-strip-item active" type="button" role="tab" aria-selected="true" data-hero-tab="home">home</button>
+                        <button class="hero-strip-item" type="button" role="tab" aria-selected="false" data-hero-tab="about">error:67</button>
+                        <button class="hero-strip-item" type="button" role="tab" aria-selected="false" data-hero-tab="work">error:67</button>
+                        <button class="hero-strip-item" type="button" role="tab" aria-selected="false" data-hero-tab="contact">contact</button>
                     </div>
-                    
-                    <div class="stat-box">
-                        <div class="stat-label">EXP</div>
-                        <div class="stat-value">TIER 2</div>
+
+                    <div class="hero-layout">
+                        <div class="hero-panel active" data-hero-panel="home">
+                            <div class="hero-content">
+                            <p class="command-line">$ programmer / student</p>
+                                <div class="hero-meta">
+                                    <span class="hero-rule"></span>
+                                    <span>that one guy who gets shit done (properly)</span>
+                                </div>
+                                <h1 class="hero-title">
+                                    IsoAris7_<span class="cursor"></span>
+                                </h1>
+                                <p class="hero-text">
+                                    A no-lifer who spends most of his time in an IDE <br>
+                                    learning how code and its logic actually works, or playing games.
+                                </p>
+                                <div class="hero-cta">
+                                    <a href="#work" class="btn-primary">my cool[?] projects</a>
+                                    <a href="#contact" class="btn-secondary">contact</a>
+                                </div>
+                            </div>
+
+                            <aside class="hero-aside" aria-hidden="true">
+                                <div class="hero-card">
+                                    <div class="hero-card-row"><span>Age</span><strong>17 years (2008)</strong></div>
+                                    <div class="hero-card-row"><span>Skill level</span><strong>[Novice]++</strong></div>
+                                    <!-- <div class="hero-card-row"><span>Currently</span><strong>Student at univesity</strong></div> -->
+                                </div>
+                                <div class="signal-graph">
+                                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                                </div>
+                            </aside>
+                        </div>
+
+                        <div class="hero-panel" data-hero-panel="about">
+                            <div class="hero-content">
+                                <p class="command-line">something was supposed to be here...</p>
+                                <div class="hero-meta">
+                                    <span class="hero-rule"></span>
+                                    <span>oh no</span>
+                                </div>
+                                <h2 class="hero-title hero-title-small">in progress / not available</h2>
+                            </div>
+
+                            <!-- <aside class="hero-aside">
+                                <div class="hero-card">
+                                    <div class="hero-card-row"><span>focus</span><strong>clarity</strong></div>
+                                    <div class="hero-card-row"><span>approach</span><strong>iterative</strong></div>
+                                    <div class="hero-card-row"><span>taste</span><strong>restrained</strong></div>
+                                </div>
+                            </aside> -->
+                        </div>
+
+                        <div class="hero-panel" data-hero-panel="work">
+                            <div class="hero-content">
+                                <p class="command-line">something was supposed to be here...</p>
+                                <div class="hero-meta">
+                                    <span class="hero-rule"></span>
+                                    <span>oh no</span>
+                                </div>
+                                <h2 class="hero-title hero-title-small">in progress / not available</h2>
+                            </div>
+
+                            <!-- <aside class="hero-aside">
+                                <div class="hero-card">
+                                    <div class="hero-card-row"><span>track</span><strong>web</strong></div>
+                                    <div class="hero-card-row"><span>track</span><strong>cli</strong></div>
+                                    <div class="hero-card-row"><span>track</span><strong>systems</strong></div>
+                                </div>
+                                <div class="hero-mini-list">
+                                    <span>01 interfaces</span>
+                                    <span>02 tooling</span>
+                                    <span>03 experiments</span>
+                                </div>
+                            </aside> -->
+                        </div>
+
+                        <div class="hero-panel" data-hero-panel="contact">
+                            <div class="hero-content">
+                                <p class="command-line">available for good internships </p>
+                                <div class="hero-meta">
+                                    <span class="hero-rule"></span>
+                                    <span>reach me out dawg, i can make shit work</span>
+                                </div>
+                                <h2 class="hero-title hero-title-small">let's make it real</h2>
+                                <p class="hero-text">
+                                    I am a student and I spend most of my time learning about stuff to its details. <br>
+                                    I don't drink, neither do I smoke, and I am direct with my programming work. <br>
+                                    Check my projects out, if you find them interesting and you think I can be utilized to your needs, 
+                                    do reach out, my contacts will be out shortly :D    
+                                </p>
+                                <div class="hero-cta">
+                                    <a href="#contact" class="btn-primary">Soon</a>
+                                    <a href="mailto:email@example.com" class="btn-secondary">Soon 2</a>
+                                </div>
+                            </div>
+
+                            <aside class="hero-aside">
+                                <div class="hero-card">
+                                    <div class="hero-card-row"><span>timezone</span><strong>ist (gmt +5:30)</strong></div>
+                                    <div class="hero-card-row"><span>location</span><strong>Pune, India</strong></div>
+                                    <div class="hero-card-row"><span>modes</span><strong>remote/pune only</strong></div>
+                                </div>
+                                <div class="hero-quote">
+                                    <span class="hero-quote-line"></span>
+                                    <p>If you tell me clearly what to do, I can make it work.</p>
+                                </div>
+                            </aside>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- sidebar NAV_MODULE -->
-            <div class="nav-section">
-                <div class="nav-title">[NAV-I]: SUBNAVIGATION INTERFACE</div>
-                
-                <div class="nav-item" onclick="toggleNav(this)">
-                    <div class="nav-item-header">
-                        <span class="nav-item-title">INFO OVERVIEW</span>
-                        <span><span class="arrow">▸</span> <span class="nav-item-number">01</span></span>
-                    </div>
-                    <div class="nav-dropdown">
-                        <div class="dropdown-item">[EXP]: Experience level of the employee, the volatile numeric is inversely proportional to the degree of privilege, total 5 tiers exist. </div> 
-                        <div class="dropdown-item">[AxS]: Allocated eXecution Space, each employee has an AxS for suiting their designated work.</div>
-                        <div class="dropdown-item">[RM-CR]: (subspace) Reactor Management (main) Control Room, the main subspace reactor control room.</div>
-                        <div class="dropdown-item">[SR]: Subspace Reactor, contains a wormhole link that has been opened in a neutron star in constellation [REDATCED], 2 million light years across.</div>
-                        <div class="dropdown-item">[RM-CR]: (subspace) Reactor Management (main) Control Room</div>
-                        <div class="dropdown-item">[ExR-M]: Extraction rate - Manager, designated employees are 
-                                                            important faculty who have subspace reactor emission
-                                                            threshold theory knowledge in order to optimize and extract 
-                                                            energy without blowing up the reactor.</div>
-                    </div>
-                </div>
+        </section>
 
-                <div class="nav-item" onclick="toggleNav(this)">
-                    <div class="nav-item-header">
-                        <span class="nav-item-title">EMPLOYEE PROJECTS</span>
-                        <span><span class="arrow">▸</span> <span class="nav-item-number">02</span></span>
-                    </div>
-                    <div class="nav-dropdown">
-                        <br>
-                        <a class="dropdown-item" href="https://github.com/Synthxyl704/ARX-compiler" 
-                          style="text-decoration: none;" target="_blank">[ACTIVE] ARX compiler</a> <br><br>
-
-                        <a class="dropdown-item" href="https://github.com/Synthxyl704/iSonic-ETL" 
-                           style="text-decoration: none;" target="_blank">[ACTIVE] iSonic - ETL</a> <br><br>
-
-                        <a class="dropdown-item" href="https://github.com/Synthxyl704/C3-Exposition" 
-                           style="text-decoration: none;" target="_blank">[ACTIVE] C3 exposition</a> <br><br>
-
-                    </div>
-                </div>
-
-                <div class="nav-item" onclick="toggleNav(this)">
-                    <div class="nav-item-header">
-                        <span class="nav-item-title">EMPLOYEE LOGS</span>
-                        <span><span class="arrow">▸</span> <span class="nav-item-number">03</span></span>
-                    </div>
-                    <div class="nav-dropdown">
-                        <div class="dropdown-item">[CORE NOTICE] - Employee manually reinstated processor unit.</div>
-                        <div class="dropdown-item">Extraction rate increased to 67%</div>
-                        <div class="dropdown-item">Assembly extraction decreased to MINIMUM</div>
-                    </div>
-                </div>
-
-                <div class="nav-item" onclick="toggleNav(this)">
-                    <div class="nav-item-header">
-                        <span class="nav-item-title">EMPLOYEE CONTACT</span>
-                        <span><span class="arrow">▸</span> <span class="nav-item-number">04</span></span>
-                    </div>
-                    <div class="nav-dropdown">
-                        <!-- <div class="dropdown-item"></div> -->
-                        <div class="dropdown-item">GitHub - Synthxyl704</div>
-                        <div class="dropdown-item">$ { __LinkedIn_067__ }</div>
-                    </div>
-                </div>
+        <section id="about" class="section panel-shell section-about">
+            <div class="panel-topbar">
+                <span class="panel-title">~/portfolio/about</span>
+                <span class="panel-state">not available</span>
             </div>
 
-             <!-- radar -->
-            <div class="skill-matrix-section">
-                <div class="section-title">EXPOSITION CHART</div>
-                <div class="radar-container">
-                    <canvas id="radarChart" width="220" height="220"></canvas>
+            <div class="about-card terminal-window wide-window">
+                <div class="terminal-header">
+                    <span class="terminal-path">cat about.txt</span>
                 </div>
-                <div class="radar-legend">
-                    <div class="legend-item">
-                        <span class="legend-dot"></span>
-                        <span>C</span>
-                        <span class="legend-value">67%</span>
-                    </div>
-                    <div class="legend-item">
-                        <span class="legend-dot"></span>
-                        <span>C++</span>
-                        <span class="legend-value">86%</span>
-                    </div>
-                    <div class="legend-item">
-                        <span class="legend-dot"></span>
-                        <span>University</span>
-                        <span class="legend-value">72%</span>
-                    </div>
-                    <div class="legend-item">
-                        <span class="legend-dot"></span>
-                        <span>Academics</span>
-                        <span class="legend-value">45%</span>
-                    </div>
-                    <div class="legend-item">
-                        <span class="legend-dot"></span>
-                        <span>Theoreticals</span>
-                        <span class="legend-value">92%</span>
-                    </div>
-                </div>
-            </div>
-        </aside>
-
-        <main class="main-content">
-            <section class="hero-section">
-                <div class="status-indicators">
-                    <div class="indicator"></div>
-                    <div class="indicator"></div>
-                    <div class="indicator"></div>
-                    <!-- <div class="indicator"></div> -->
-                </div>
-                <div class="RM-role">EXTRACTION RATE MANAGER</div>
-                <!-- <h1 class="hero-title">#1</h1> -->
-                <h1 class="hero-subtitle">[RM] SILICON SYSTEMS ARDENT</h1>
-                <p class="hero-description">
-                    7Tiamatr/x is the <span style="color: #ceff2c;"> ExR - M </span> in [RM-CR] who programs in <b>C/C++</b> 
-                    and is an asset due to him being flexible in catching up with any programming language he is trained with,
-                    which allows him to program extraction conditionals and tests for the subspace reactor efficiently. <br> <br>    
+                <p>
+                    <strong>This section is in progress and will be available soon.</strong>
                 </p>
+            </div>
+        </section>
 
-                     
-
-                    <h1 class="hero-subtitle">[NOTE]:</h1>
-                    <p class="hero-description">
-                    - Employee displays idiosyncratic "salty" behaviour intermittently as per the training language. <br>
-                    - Employee is 17 years old, we have found workarounds for keeping the closure legal. <br>
-                    - Once blew up the extraction assembly equipment due to a deliberately set higher extraction rate.
-                        
-                </p>
-                <div class="hero-buttons">
-                    <button class="btn">&gt;_ INITIATE RADIO COMM</button>
-                    <button class="btn btn-outline">${EMP067_button_2_content}</button>
-                </div>
-            </section>
-
-            <!-- projects sect -->
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3 class="project-title">ARX compiler</h3>
-                        <span class="project-status">ACTIVE</span>
-                    </div>
-                    <p class="project-description">
-                        A "derivative" statically typed language inspired from <b>[C++]</b> and <b>[Assembly]</b>. <br> <br>
-                        Employee had started this with mediocre C knowledge, but learnt a lot about how compilers work from this as part of his research. <br> <br>
-                        As of current, the lexical analyzer is being built, employee appears to be awfully slow at it due to college and procrastination. 
-                    </p>
-                    <div class="project-meta">
-                        <span class="project-type">TYPE: COMPILER INTRINSICS & DESIGN</span>
-                        <a href="https://github.com/Synthxyl704/ARX-compiler" target="_blank" class="project-link">ACCESS PROJECT SOURCE ›</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3 class="project-title">iSonic - ETL</h3>
-                        <span class="project-status">ACTIVE</span>
-                    </div>
-                    <p class="project-description">
-                    A C++ (x64) targetted linux command-line / CLI program which utilizes YT-DLP & FFmpeg
-                    for audio extraction and installation setting. <br> <br>
-                    Rich with various features such as transcoding, metadata listing, custom format, etc. <br> <br>
-                    Employee is active on the project, however it is important to note that it is COMPLETE for its original purpose. 
-                        
-                    </p>
-                    <div class="project-meta">
-                        <span class="project-type">TYPE: TERMINAL TIER CONTROL SYSTEM</span>
-                        <a href="https://github.com/Synthxyl704/iSonic-ETL" target="_blank" class="project-link">ACCESS PROJECT SOURCE ›</a>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3 class="project-title">ARGV Image Downloader</h3>
-                        <span class="project-status" style="color:red; border: 1px solid red;">INACTIVE</span>
-                    </div>
-                    <p class="project-description">
-                        A terminal control system for downloading images off the internet with just its URL, 
-                        made in <b>[C]</b> and is built using <b>[imagemagick API / library]</b>. <br> <br>
-                        Consists of various feats such as resizing, rotation, grayscaling index, etc. <br> <br>
-                        [NOTE] - The code is absolutely horrendous, employee sucked during making this project 
-                        and the output system's readability is more "shit" than actually being readable, however is very optimized and simple once understood.
-                    </p>
-                    <div class="project-meta">
-                        <span class="project-type">TYPE: TERMINAL TIER CONTROL SYSTEM</span>
-                        <a href="https://github.com/Synthxyl704/ARGV_image_downloader" target="_blank" class="project-link">ACCESS PROJECT SOURCE ›</a>
-                    </div>
-                </div>
+        <section id="work" class="section panel-shell section-work">
+            <div class="panel-topbar">
+                <span class="panel-title">~/portfolio/work</span>
+                <span class="panel-state">not available</span>
             </div>
 
-            <footer>
-                © ISOARIS 2025 | INSECURE_CONNECTION_ESTABLISHED
-            </footer>
-        </main>
-    </div>
+            <div class="section-header">
+                <span class="section-num">03</span>
+                <h2 class="section-title">Selected Work</h2>
+            </div>
+            <div class="work-grid">
+                <div class="terminal-window" style="padding: 20px; text-align: center;">
+                    <p><strong>This section is in progress and will be available soon.</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section panel-shell section-contact">
+            <div class="panel-topbar">
+                <span class="panel-title">~/portfolio/contact</span>
+                <span class="panel-state">ready</span>
+            </div>
+
+            <div class="section-header">
+                <span class="section-num">04</span>
+                <h2 class="section-title">touch me</h2> <h6 style="color: rgb(38, 38, 38);">...wait what?</h6>
+            </div>
+            <div class="contact-content terminal-window wide-window">
+                <div class="terminal-header">
+                    <span class="terminal-path">ping collaborator</span>
+                </div>
+                <p class="contact-text">
+                    I am socially nervous so please think twice before contacting me...
+                </p>
+                <a href="mailto:email@example.com" class="contact-email">addsomethinghere</a>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <span>© Synthxy704</span>
+            <span class="footer-divider">/</span>
+            <span>29 - 04 - 2026</span>
+        </footer>
+    </main>
+
+    <script>
+        const navLinks = document.querySelectorAll('.nav-link');
+        const sections = document.querySelectorAll('.section');
+        const sectionLinks = document.querySelectorAll('a[href^="#"]');
+        const heroTabs = document.querySelectorAll('[data-hero-tab]');
+        const heroPanels = document.querySelectorAll('[data-hero-panel]');
+        const themeToggle = document.querySelector('.theme-toggle');
+        const themeToggleText = document.querySelector('.theme-toggle-text');
+        const storedTheme = localStorage.getItem('theme');
+
+        const applyTheme = (theme) => {
+            document.body.dataset.theme = theme;
+            themeToggleText.textContent = theme === 'dark' ? 'light' : 'dark';
+        };
+
+        applyTheme(storedTheme || 'dark');
+
+        const setActiveSection = (targetId) => {
+            sections.forEach(section => {
+                section.classList.toggle('active-section', section.id === targetId);
+            });
+
+            navLinks.forEach(link => {
+                link.classList.toggle('active', link.getAttribute('href') === `#${targetId}`);
+            });
+        };
+
+        setActiveSection('home');
+
+        sectionLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
+                if (document.getElementById(targetId)) {
+                    setActiveSection(targetId);
+                }
+            });
+        });
+
+        heroTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = tab.dataset.heroTab;
+
+                heroTabs.forEach(item => {
+                    item.classList.toggle('active', item === tab);
+                    item.setAttribute('aria-selected', item === tab ? 'true' : 'false');
+                });
+
+                heroPanels.forEach(panel => {
+                    panel.classList.toggle('active', panel.dataset.heroPanel === target);
+                });
+            });
+        });
+
+        themeToggle.addEventListener('click', () => {
+            const nextTheme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+            applyTheme(nextTheme);
+            localStorage.setItem('theme', nextTheme);
+        });
+    </script>
 </body>
 </html>
