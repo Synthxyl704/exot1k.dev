@@ -4,313 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>hi bro</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;700&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+    <title>Exotik_</title>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=albert-sans:400,500,600,700|space-grotesk:500,600,700" rel="stylesheet">
 </head>
 <body>
-    <div class="screen-noise"></div>
-    <div class="screen-grid"></div>
+    <div class="ambient-equalizer" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
 
-    <nav class="nav-sidebar">
-        <div class="nav-top">
-            <div class="nav-logo">
-                <div class="window-dots" aria-hidden="true">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <div class="brand-block">
-                    <span class="logo-mark">7</span>
-                    <span class="logo-text">REDUX</span>
-                </div>
+    <aside class="contact-sidebar" aria-label="Contact links">
+        <a href="https://www.instagram.com/nev3raris/" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="https://x.com/009isoaris_" target="_blank" rel="noreferrer">X (formerly Twitter)</a>
+        <a href="https://github.com/Synthxyl704" target="_blank" rel="noreferrer">GitHub</a>
+    </aside>
+
+    <main class="content">
+        <section id="name" class="section">
+            <p class="tagline">[ 17y ] - programmer / student </p>
+            <h1 class="name">// exotik_<span class="cursor"></span></h1>
+            <p class="bio">Systems level software developer @ Pune, India.</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">Me</h2>
+            <div class="about-body">
+                <p>I understand and write. Adaptation to change is intelligence. <br>
+                Decent at <b>Python & C++</b>, including versatility with <b>C & Java.</b><br></p>
             </div>
+        </section>
 
-            <div class="nav-menu">
-                <a href="#home" class="nav-link active">
-                    <span class="nav-num">01</span>
-                    <span class="nav-label">home</span>
-                </a>
-                <a href="#about" class="nav-link">
-                    <span class="nav-num">02</span>
-                    <span class="nav-label">about</span>
-                </a>
-                <a href="#work" class="nav-link">
-                    <span class="nav-num">03</span>
-                    <span class="nav-label">work</span>
-                </a>
-                <a href="#contact" class="nav-link">
-                    <span class="nav-num">04</span>
-                    <span class="nav-label">contact</span>
-                </a>
-            </div>
-        </div>
-
-        <div class="nav-footer">
-            <button class="theme-toggle" type="button" aria-label="Toggle color theme">
-                <span class="theme-toggle-text">light</span>
-            </button>
-            <div class="social-links">
-                <a href="https://github.com/Synthxyl704" target="_blank">GitHub</a>
-                <a href="#" target="_blank">LinkedIn</a>
-            </div>
-            <span class="copyright">त्रिमितीय संज्ञानात्मक</span>
-        </div>
-    </nav>
-
-    <main class="main-scroll">
-        <section id="home" class="section section-hero panel-shell active-section">
-            <div class="hero-shell">
-                <div class="hero-rail" aria-hidden="true">
-                    <span class="hero-rail-line"></span>
-                    <span class="hero-rail-line short"></span>
-                    <span class="hero-rail-line tall"></span>
-                    <span class="hero-rail-word">inter</span>
-                </div>
-
-                <div class="hero-stage">
-                    <div class="hero-strip" role="tablist" aria-label="Hero panels">
-                        <button class="hero-strip-item active" type="button" role="tab" aria-selected="true" data-hero-tab="home">home</button>
-                        <button class="hero-strip-item" type="button" role="tab" aria-selected="false" data-hero-tab="about">error:67</button>
-                        <button class="hero-strip-item" type="button" role="tab" aria-selected="false" data-hero-tab="work">error:67</button>
-                        <button class="hero-strip-item" type="button" role="tab" aria-selected="false" data-hero-tab="contact">contact</button>
+        <section id="projects" class="section">
+            <h2 class="section-title">Stuff ive made</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <span class="project-number">0xA</span>
+                    <div class="project-details">
+                        <h3>async-http</h3>
+                        <p>Local asynchronous HTTP/1.1/2 server on IPv4/v6 loopback address + TCP implementation (from scratch) for learning purposes.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                        </div>
+                        <a href="https://github.com/Synthxyl704/async-http" class="project-link">[ GitHub ]</a>
                     </div>
-
-                    <div class="hero-layout">
-                        <div class="hero-panel active" data-hero-panel="home">
-                            <div class="hero-content">
-                            <p class="command-line">$ programmer / student</p>
-                                <div class="hero-meta">
-                                    <span class="hero-rule"></span>
-                                    <span>that one guy who gets shit done (properly)</span>
-                                </div>
-                                <h1 class="hero-title">
-                                    IsoAris7_<span class="cursor"></span>
-                                </h1>
-                                <p class="hero-text">
-                                    A no-lifer who spends most of his time in an IDE <br>
-                                    learning how code and its logic actually works, or playing games.
-                                </p>
-                                <div class="hero-cta">
-                                    <a href="#work" class="btn-primary">my cool[?] projects</a>
-                                    <a href="#contact" class="btn-secondary">contact</a>
-                                </div>
-                            </div>
-
-                            <aside class="hero-aside" aria-hidden="true">
-                                <div class="hero-card">
-                                    <div class="hero-card-row"><span>Age</span><strong>17 years (2008)</strong></div>
-                                    <div class="hero-card-row"><span>Skill level</span><strong>[Novice]++</strong></div>
-                                    <!-- <div class="hero-card-row"><span>Currently</span><strong>Student at univesity</strong></div> -->
-                                </div>
-                                <div class="signal-graph">
-                                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-                                </div>
-                            </aside>
+                </div>
+                <div class="project-card">
+                    <span class="project-number">0xB</span>
+                    <div class="project-details">
+                        <h3>iterative</h3>
+                        <p>In-process microbenchmarker with nanosecond precision for C/C++/Python programs in Linux.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>CMake</span>
+                            <span>Shell</span>
                         </div>
-
-                        <div class="hero-panel" data-hero-panel="about">
-                            <div class="hero-content">
-                                <p class="command-line">something was supposed to be here...</p>
-                                <div class="hero-meta">
-                                    <span class="hero-rule"></span>
-                                    <span>oh no</span>
-                                </div>
-                                <h2 class="hero-title hero-title-small">in progress / not available</h2>
-                            </div>
-
-                            <!-- <aside class="hero-aside">
-                                <div class="hero-card">
-                                    <div class="hero-card-row"><span>focus</span><strong>clarity</strong></div>
-                                    <div class="hero-card-row"><span>approach</span><strong>iterative</strong></div>
-                                    <div class="hero-card-row"><span>taste</span><strong>restrained</strong></div>
-                                </div>
-                            </aside> -->
+                        <a href="https://github.com/Synthxyl704/Iterative" class="project-link">[ GitHub ]</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <span class="project-number">0xC</span>
+                    <div class="project-details">
+                        <h3>PID Cache Affinity Pinner (pcap)</h3>
+                        <p>Pin processes (PIDs) to CPU cache domains on Linux, with NUMA awareness and topology suggestions.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
                         </div>
-
-                        <div class="hero-panel" data-hero-panel="work">
-                            <div class="hero-content">
-                                <p class="command-line">something was supposed to be here...</p>
-                                <div class="hero-meta">
-                                    <span class="hero-rule"></span>
-                                    <span>oh no</span>
-                                </div>
-                                <h2 class="hero-title hero-title-small">in progress / not available</h2>
-                            </div>
-
-                            <!-- <aside class="hero-aside">
-                                <div class="hero-card">
-                                    <div class="hero-card-row"><span>track</span><strong>web</strong></div>
-                                    <div class="hero-card-row"><span>track</span><strong>cli</strong></div>
-                                    <div class="hero-card-row"><span>track</span><strong>systems</strong></div>
-                                </div>
-                                <div class="hero-mini-list">
-                                    <span>01 interfaces</span>
-                                    <span>02 tooling</span>
-                                    <span>03 experiments</span>
-                                </div>
-                            </aside> -->
+                        <a href="https://github.com/Synthxyl704/PCAP" class="project-link">[ GitHub ]</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <span class="project-number">0xD</span>
+                    <div class="project-details">
+                        <h3>iSonic</h3>
+                        <p>An easy-to-use (ETL) terminal centric music downloader & manager whose only limitation is unfortunately DRM.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>yt-dlp</span>
+                            <span>FFmpeg</span>
                         </div>
-
-                        <div class="hero-panel" data-hero-panel="contact">
-                            <div class="hero-content">
-                                <p class="command-line">available for good internships </p>
-                                <div class="hero-meta">
-                                    <span class="hero-rule"></span>
-                                    <span>reach me out dawg, i can make shit work</span>
-                                </div>
-                                <h2 class="hero-title hero-title-small">let's make it real</h2>
-                                <p class="hero-text">
-                                    I am a student and I spend most of my time learning about stuff to its details. <br>
-                                    I don't drink, neither do I smoke, and I am direct with my programming work. <br>
-                                    Check my projects out, if you find them interesting and you think I can be utilized to your needs, 
-                                    do reach out, my contacts will be out shortly :D    
-                                </p>
-                                <div class="hero-cta">
-                                    <a href="#contact" class="btn-primary">Soon</a>
-                                    <a href="mailto:email@example.com" class="btn-secondary">Soon 2</a>
-                                </div>
-                            </div>
-
-                            <aside class="hero-aside">
-                                <div class="hero-card">
-                                    <div class="hero-card-row"><span>timezone</span><strong>ist (gmt +5:30)</strong></div>
-                                    <div class="hero-card-row"><span>location</span><strong>Pune, India</strong></div>
-                                    <div class="hero-card-row"><span>modes</span><strong>remote/pune only</strong></div>
-                                </div>
-                                <div class="hero-quote">
-                                    <span class="hero-quote-line"></span>
-                                    <p>If you tell me clearly what to do, I can make it work.</p>
-                                </div>
-                            </aside>
+                        <a href="https://github.com/Synthxyl704/iSonic" class="project-link">[ GitHub ]</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <span class="project-number">0xE</span>
+                    <div class="project-details">
+                        <h3>ARX lexer</h3>
+                        <p>A toy lexer entirely handmade in C, I intend for it to be a full compiler in the future.</p>
+                        <div class="project-tags">
+                            <span>C</span>
                         </div>
+                        <a href="https://github.com/Synthxyl704/ARX" class="project-link">[ GitHub ]</a>
                     </div>
                 </div>
             </div>
-
         </section>
-
-        <section id="about" class="section panel-shell section-about">
-            <div class="panel-topbar">
-                <span class="panel-title">~/portfolio/about</span>
-                <span class="panel-state">not available</span>
-            </div>
-
-            <div class="about-card terminal-window wide-window">
-                <div class="terminal-header">
-                    <span class="terminal-path">cat about.txt</span>
-                </div>
-                <p>
-                    <strong>This section is in progress and will be available soon.</strong>
-                </p>
-            </div>
-        </section>
-
-        <section id="work" class="section panel-shell section-work">
-            <div class="panel-topbar">
-                <span class="panel-title">~/portfolio/work</span>
-                <span class="panel-state">not available</span>
-            </div>
-
-            <div class="section-header">
-                <span class="section-num">03</span>
-                <h2 class="section-title">Selected Work</h2>
-            </div>
-            <div class="work-grid">
-                <div class="terminal-window" style="padding: 20px; text-align: center;">
-                    <p><strong>This section is in progress and will be available soon.</strong></p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="section panel-shell section-contact">
-            <div class="panel-topbar">
-                <span class="panel-title">~/portfolio/contact</span>
-                <span class="panel-state">ready</span>
-            </div>
-
-            <div class="section-header">
-                <span class="section-num">04</span>
-                <h2 class="section-title">touch me</h2> <h6 style="color: rgb(38, 38, 38);">...wait what?</h6>
-            </div>
-            <div class="contact-content terminal-window wide-window">
-                <div class="terminal-header">
-                    <span class="terminal-path">ping collaborator</span>
-                </div>
-                <p class="contact-text">
-                    I am socially nervous so please think twice before contacting me...
-                </p>
-                <a href="mailto:email@example.com" class="contact-email">addsomethinghere</a>
-            </div>
-        </section>
-
-        <footer class="site-footer">
-            <span>© Synthxy704</span>
-            <span class="footer-divider">/</span>
-            <span>29 - 04 - 2026</span>
-        </footer>
     </main>
-
-    <script>
-        const navLinks = document.querySelectorAll('.nav-link');
-        const sections = document.querySelectorAll('.section');
-        const sectionLinks = document.querySelectorAll('a[href^="#"]');
-        const heroTabs = document.querySelectorAll('[data-hero-tab]');
-        const heroPanels = document.querySelectorAll('[data-hero-panel]');
-        const themeToggle = document.querySelector('.theme-toggle');
-        const themeToggleText = document.querySelector('.theme-toggle-text');
-        const storedTheme = localStorage.getItem('theme');
-
-        const applyTheme = (theme) => {
-            document.body.dataset.theme = theme;
-            themeToggleText.textContent = theme === 'dark' ? 'light' : 'dark';
-        };
-
-        applyTheme(storedTheme || 'dark');
-
-        const setActiveSection = (targetId) => {
-            sections.forEach(section => {
-                section.classList.toggle('active-section', section.id === targetId);
-            });
-
-            navLinks.forEach(link => {
-                link.classList.toggle('active', link.getAttribute('href') === `#${targetId}`);
-            });
-        };
-
-        setActiveSection('home');
-
-        sectionLinks.forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const targetId = link.getAttribute('href').substring(1);
-                if (document.getElementById(targetId)) {
-                    setActiveSection(targetId);
-                }
-            });
-        });
-
-        heroTabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                const target = tab.dataset.heroTab;
-
-                heroTabs.forEach(item => {
-                    item.classList.toggle('active', item === tab);
-                    item.setAttribute('aria-selected', item === tab ? 'true' : 'false');
-                });
-
-                heroPanels.forEach(panel => {
-                    panel.classList.toggle('active', panel.dataset.heroPanel === target);
-                });
-            });
-        });
-
-        themeToggle.addEventListener('click', () => {
-            const nextTheme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
-            applyTheme(nextTheme);
-            localStorage.setItem('theme', nextTheme);
-        });
-    </script>
 </body>
 </html>
